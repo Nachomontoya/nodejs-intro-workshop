@@ -15,8 +15,7 @@ const BASE_NUM = require("./constants");
  */
 module.exports = {
   add: function (a, b) {
-    BASE_NUM = a + b;
-    return BASE_NUM;
+    return a + b + BASE_NUM;
   },
   subtract: function (a, b) {
     return b - a;
